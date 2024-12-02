@@ -20,6 +20,7 @@
 		8A011BA32CFDC64300D1DBCB /* SwiftCommits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCommits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A011BB52CFDC64400D1DBCB /* SwiftCommitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A011BE32CFDC66900D1DBCB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8A011BE42CFDC6E300D1DBCB /* GithubAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = GithubAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -56,6 +57,7 @@
 		8A011B9A2CFDC64300D1DBCB = {
 			isa = PBXGroup;
 			children = (
+				8A011BE42CFDC6E300D1DBCB /* GithubAPI */,
 				8A011BE32CFDC66900D1DBCB /* README.md */,
 				8A011BA52CFDC64300D1DBCB /* SwiftCommits */,
 				8A011BB82CFDC64400D1DBCB /* SwiftCommitsTests */,
