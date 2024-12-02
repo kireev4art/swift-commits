@@ -35,7 +35,8 @@ let package = Package(
         ),
         .testTarget(
             name: "GithubAPITests",
-            dependencies: ["GithubAPI"]
+            dependencies: ["GithubAPI"],
+            resources: [.copy("Resources"),]
         ),
     ]
 )

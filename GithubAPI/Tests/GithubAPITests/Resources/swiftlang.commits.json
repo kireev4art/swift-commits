@@ -1,0 +1,837 @@
+[
+  {
+    "sha": "a3075da13cb9ef778c14d6ca537c1c83503d96af",
+    "node_id": "C_kwDOAqwwJdoAKGEzMDc1ZGExM2NiOWVmNzc4YzE0ZDZjYTUzN2MxYzgzNTAzZDk2YWY",
+    "commit": {
+      "author": {
+        "name": "Allan Shortlidge",
+        "email": "shortlidge@apple.com",
+        "date": "2024-11-20T17:19:11Z"
+      },
+      "committer": {
+        "name": "Allan Shortlidge",
+        "email": "shortlidge@apple.com",
+        "date": "2024-11-20T18:08:45Z"
+      },
+      "message": "Gardening: Remove out-of-date comments from availability-macros.def.",
+      "tree": {
+        "sha": "0d8a85075878bd8e72ef15b397244bece4716477",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/0d8a85075878bd8e72ef15b397244bece4716477"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/a3075da13cb9ef778c14d6ca537c1c83503d96af",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/a3075da13cb9ef778c14d6ca537c1c83503d96af",
+    "html_url": "https://github.com/swiftlang/swift/commit/a3075da13cb9ef778c14d6ca537c1c83503d96af",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/a3075da13cb9ef778c14d6ca537c1c83503d96af/comments",
+    "author": {
+      "login": "tshortli",
+      "id": 16380168,
+      "node_id": "MDQ6VXNlcjE2MzgwMTY4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16380168?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tshortli",
+      "html_url": "https://github.com/tshortli",
+      "followers_url": "https://api.github.com/users/tshortli/followers",
+      "following_url": "https://api.github.com/users/tshortli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tshortli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tshortli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tshortli/subscriptions",
+      "organizations_url": "https://api.github.com/users/tshortli/orgs",
+      "repos_url": "https://api.github.com/users/tshortli/repos",
+      "events_url": "https://api.github.com/users/tshortli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tshortli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tshortli",
+      "id": 16380168,
+      "node_id": "MDQ6VXNlcjE2MzgwMTY4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16380168?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tshortli",
+      "html_url": "https://github.com/tshortli",
+      "followers_url": "https://api.github.com/users/tshortli/followers",
+      "following_url": "https://api.github.com/users/tshortli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tshortli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tshortli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tshortli/subscriptions",
+      "organizations_url": "https://api.github.com/users/tshortli/orgs",
+      "repos_url": "https://api.github.com/users/tshortli/repos",
+      "events_url": "https://api.github.com/users/tshortli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tshortli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "51b9f4d079c928343eb8a71fa20a82d4e0ed63a7",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/51b9f4d079c928343eb8a71fa20a82d4e0ed63a7",
+        "html_url": "https://github.com/swiftlang/swift/commit/51b9f4d079c928343eb8a71fa20a82d4e0ed63a7"
+      }
+    ]
+  },
+  {
+    "sha": "51b9f4d079c928343eb8a71fa20a82d4e0ed63a7",
+    "node_id": "C_kwDOAqwwJdoAKDUxYjlmNGQwNzljOTI4MzQzZWI4YTcxZmEyMGE4MmQ0ZTBlZDYzYTc",
+    "commit": {
+      "author": {
+        "name": "Allan Shortlidge",
+        "email": "shortlidge@apple.com",
+        "date": "2024-11-20T17:18:34Z"
+      },
+      "committer": {
+        "name": "Allan Shortlidge",
+        "email": "shortlidge@apple.com",
+        "date": "2024-11-20T18:08:45Z"
+      },
+      "message": "Tests: Use Swift version aligned target triples in some IRGen tests.",
+      "tree": {
+        "sha": "74fef1efa10596c0586df516c407a227c002a0a0",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/74fef1efa10596c0586df516c407a227c002a0a0"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/51b9f4d079c928343eb8a71fa20a82d4e0ed63a7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/51b9f4d079c928343eb8a71fa20a82d4e0ed63a7",
+    "html_url": "https://github.com/swiftlang/swift/commit/51b9f4d079c928343eb8a71fa20a82d4e0ed63a7",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/51b9f4d079c928343eb8a71fa20a82d4e0ed63a7/comments",
+    "author": {
+      "login": "tshortli",
+      "id": 16380168,
+      "node_id": "MDQ6VXNlcjE2MzgwMTY4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16380168?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tshortli",
+      "html_url": "https://github.com/tshortli",
+      "followers_url": "https://api.github.com/users/tshortli/followers",
+      "following_url": "https://api.github.com/users/tshortli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tshortli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tshortli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tshortli/subscriptions",
+      "organizations_url": "https://api.github.com/users/tshortli/orgs",
+      "repos_url": "https://api.github.com/users/tshortli/repos",
+      "events_url": "https://api.github.com/users/tshortli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tshortli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tshortli",
+      "id": 16380168,
+      "node_id": "MDQ6VXNlcjE2MzgwMTY4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16380168?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tshortli",
+      "html_url": "https://github.com/tshortli",
+      "followers_url": "https://api.github.com/users/tshortli/followers",
+      "following_url": "https://api.github.com/users/tshortli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tshortli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tshortli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tshortli/subscriptions",
+      "organizations_url": "https://api.github.com/users/tshortli/orgs",
+      "repos_url": "https://api.github.com/users/tshortli/repos",
+      "events_url": "https://api.github.com/users/tshortli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tshortli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ec8558942c42ce87baeef5aa32a2b6f43cb66001",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/ec8558942c42ce87baeef5aa32a2b6f43cb66001",
+        "html_url": "https://github.com/swiftlang/swift/commit/ec8558942c42ce87baeef5aa32a2b6f43cb66001"
+      }
+    ]
+  },
+  {
+    "sha": "ec8558942c42ce87baeef5aa32a2b6f43cb66001",
+    "node_id": "C_kwDOAqwwJdoAKGVjODU1ODk0MmM0MmNlODdiYWVlZjVhYTMyYTJiNmY0M2NiNjYwMDE",
+    "commit": {
+      "author": {
+        "name": "Allan Shortlidge",
+        "email": "shortlidge@apple.com",
+        "date": "2024-11-20T17:26:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-11-20T17:26:48Z"
+      },
+      "message": "Merge pull request #77720 from tshortli/remove-get-potentially-unavailable\n\nAST: Remove `DeclAttributes::getPotentiallyUnavailable()`",
+      "tree": {
+        "sha": "313aac7dab613c09ed9702590fef72715e6f8c8b",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/313aac7dab613c09ed9702590fef72715e6f8c8b"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/ec8558942c42ce87baeef5aa32a2b6f43cb66001",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnPhvYCRC1aQ7uu5UhlAAA5OAQADXrTYIY9IsygDD+VhMl1H9Z\nxSQDp0nJUShTSSlovvkv/BaAOSqppiLNPOIhljc5YTFoHfGQ2WZrTngRl9v0aNVC\nWX3qXhXHZbUR/7K8C2cvzbTYjGEn4Yti/PylDOl2g549zO+Z38icNSL9Puns69nG\nxJoCR8pHOKBjsrtW+AekaSkGbjYn8yWJzWoxvRS/QLmYuufRGmYVLjATZj+Pjp9t\nd9rDiYYp/ajb4o5sXOr0fa7JnfrZWDycpp1t/6oxw7cF87+TL7DD+sVPPwmZkMaO\nQWmm3FPmJHCjTNow0GOA5/TSPfi+F46KS0SI6f6cAWN0jv4pvi+mD4A/G6xUnNe4\nojTTky7OQHR3D1GlExq0aWyS+33ozbUGTTZ/LMNRqMyrtoYNLOOOAZIfWf0og7Wu\nrLoZZtzQfqDHpaCE24dpFrZ2iHopavw4vfo7y47Btm0N+msCja+Dc+FLF/B/+16Q\n/PQ1WABeuOCGjvpIv9MwpVro4Ck9Zvmtu3bJdPm7PbqMhnMS0hpBxwKRhEw2seMd\nQZ3531lwRSUO8tHz6+R1TKRxVHmtejv5CpkHym/vfXpI0Kc+9q+DDDklKLU9SD9W\n/M7iSYcBxBPSnG+1yNijC4LQJyxVRepFiYC+einLNY3y6DtAmvNo3RxJPLLbhIMd\nhwEUCUyDDrKhcb/3exdG\n=d4Jj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 313aac7dab613c09ed9702590fef72715e6f8c8b\nparent a8a8eafc7e314d77f6cc54b312db919347d3258d\nparent b3f64210912c60e2e4da215b2dc2c1d1b843e5c9\nauthor Allan Shortlidge <shortlidge@apple.com> 1732123608 -0800\ncommitter GitHub <noreply@github.com> 1732123608 -0800\n\nMerge pull request #77720 from tshortli/remove-get-potentially-unavailable\n\nAST: Remove `DeclAttributes::getPotentiallyUnavailable()`",
+        "verified_at": "2024-11-20T17:26:55Z"
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/ec8558942c42ce87baeef5aa32a2b6f43cb66001",
+    "html_url": "https://github.com/swiftlang/swift/commit/ec8558942c42ce87baeef5aa32a2b6f43cb66001",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/ec8558942c42ce87baeef5aa32a2b6f43cb66001/comments",
+    "author": {
+      "login": "tshortli",
+      "id": 16380168,
+      "node_id": "MDQ6VXNlcjE2MzgwMTY4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16380168?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tshortli",
+      "html_url": "https://github.com/tshortli",
+      "followers_url": "https://api.github.com/users/tshortli/followers",
+      "following_url": "https://api.github.com/users/tshortli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tshortli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tshortli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tshortli/subscriptions",
+      "organizations_url": "https://api.github.com/users/tshortli/orgs",
+      "repos_url": "https://api.github.com/users/tshortli/repos",
+      "events_url": "https://api.github.com/users/tshortli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tshortli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a8a8eafc7e314d77f6cc54b312db919347d3258d",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/a8a8eafc7e314d77f6cc54b312db919347d3258d",
+        "html_url": "https://github.com/swiftlang/swift/commit/a8a8eafc7e314d77f6cc54b312db919347d3258d"
+      },
+      {
+        "sha": "b3f64210912c60e2e4da215b2dc2c1d1b843e5c9",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/b3f64210912c60e2e4da215b2dc2c1d1b843e5c9",
+        "html_url": "https://github.com/swiftlang/swift/commit/b3f64210912c60e2e4da215b2dc2c1d1b843e5c9"
+      }
+    ]
+  },
+  {
+    "sha": "9d5db10c8b7ddefda4158cc3a726fa3e90134c78",
+    "node_id": "C_kwDOAqwwJdoAKDlkNWRiMTBjOGI3ZGRlZmRhNDE1OGNjM2E3MjZmYTNlOTAxMzRjNzg",
+    "commit": {
+      "author": {
+        "name": "Saleem Abdulrasool",
+        "email": "compnerd@compnerd.org",
+        "date": "2024-11-20T17:22:47Z"
+      },
+      "committer": {
+        "name": "Saleem Abdulrasool",
+        "email": "compnerd@compnerd.org",
+        "date": "2024-11-20T17:23:40Z"
+      },
+      "message": "utils: remove `DEVTOOLS_ROOT` property for MSIs\n\nThis property was unused and has been removed from the WiX rules as of\nswiftlang/swift-installer-scripts#347. Simplify the invocation.",
+      "tree": {
+        "sha": "bb1fcabe0118045794c07d5e824189979a13adb3",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/bb1fcabe0118045794c07d5e824189979a13adb3"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/9d5db10c8b7ddefda4158cc3a726fa3e90134c78",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgeKve0AihQ8nnvGjiRE8IRIcBLw\nJpdfTb7vzmu+NZMcgAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQHxclTL9IzVTV5+RZZVsNn5zDfn3MKUeZVMgeZRwPKwNzkbZl1NhKEGbNGdd+2crTn\n+EfTgwHHM7idYpFKlZjQA=\n-----END SSH SIGNATURE-----",
+        "payload": "tree bb1fcabe0118045794c07d5e824189979a13adb3\nparent a8a8eafc7e314d77f6cc54b312db919347d3258d\nauthor Saleem Abdulrasool <compnerd@compnerd.org> 1732123367 -0800\ncommitter Saleem Abdulrasool <compnerd@compnerd.org> 1732123420 -0800\n\nutils: remove `DEVTOOLS_ROOT` property for MSIs\n\nThis property was unused and has been removed from the WiX rules as of\nswiftlang/swift-installer-scripts#347. Simplify the invocation.\n",
+        "verified_at": "2024-11-20T17:23:47Z"
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/9d5db10c8b7ddefda4158cc3a726fa3e90134c78",
+    "html_url": "https://github.com/swiftlang/swift/commit/9d5db10c8b7ddefda4158cc3a726fa3e90134c78",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/9d5db10c8b7ddefda4158cc3a726fa3e90134c78/comments",
+    "author": {
+      "login": "compnerd",
+      "id": 63311,
+      "node_id": "MDQ6VXNlcjYzMzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63311?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compnerd",
+      "html_url": "https://github.com/compnerd",
+      "followers_url": "https://api.github.com/users/compnerd/followers",
+      "following_url": "https://api.github.com/users/compnerd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compnerd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compnerd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compnerd/subscriptions",
+      "organizations_url": "https://api.github.com/users/compnerd/orgs",
+      "repos_url": "https://api.github.com/users/compnerd/repos",
+      "events_url": "https://api.github.com/users/compnerd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compnerd/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "compnerd",
+      "id": 63311,
+      "node_id": "MDQ6VXNlcjYzMzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63311?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/compnerd",
+      "html_url": "https://github.com/compnerd",
+      "followers_url": "https://api.github.com/users/compnerd/followers",
+      "following_url": "https://api.github.com/users/compnerd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/compnerd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/compnerd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/compnerd/subscriptions",
+      "organizations_url": "https://api.github.com/users/compnerd/orgs",
+      "repos_url": "https://api.github.com/users/compnerd/repos",
+      "events_url": "https://api.github.com/users/compnerd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/compnerd/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a8a8eafc7e314d77f6cc54b312db919347d3258d",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/a8a8eafc7e314d77f6cc54b312db919347d3258d",
+        "html_url": "https://github.com/swiftlang/swift/commit/a8a8eafc7e314d77f6cc54b312db919347d3258d"
+      }
+    ]
+  },
+  {
+    "sha": "256609fb47488d44793a80784bd444eb5af91015",
+    "node_id": "C_kwDOAqwwJdoAKDI1NjYwOWZiNDc0ODhkNDQ3OTNhODA3ODRiZDQ0NGViNWFmOTEwMTU",
+    "commit": {
+      "author": {
+        "name": "Rintaro Ishizaki",
+        "email": "rishizaki@apple.com",
+        "date": "2024-11-20T17:21:32Z"
+      },
+      "committer": {
+        "name": "Rintaro Ishizaki",
+        "email": "rishizaki@apple.com",
+        "date": "2024-11-20T17:21:32Z"
+      },
+      "message": "[ASTGen] Generate some SIMPLE attributes",
+      "tree": {
+        "sha": "671f37c21d91eb995f4793d60a128b82713c4806",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/671f37c21d91eb995f4793d60a128b82713c4806"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/256609fb47488d44793a80784bd444eb5af91015",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/256609fb47488d44793a80784bd444eb5af91015",
+    "html_url": "https://github.com/swiftlang/swift/commit/256609fb47488d44793a80784bd444eb5af91015",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/256609fb47488d44793a80784bd444eb5af91015/comments",
+    "author": {
+      "login": "rintaro",
+      "id": 142081,
+      "node_id": "MDQ6VXNlcjE0MjA4MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142081?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rintaro",
+      "html_url": "https://github.com/rintaro",
+      "followers_url": "https://api.github.com/users/rintaro/followers",
+      "following_url": "https://api.github.com/users/rintaro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rintaro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rintaro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rintaro/subscriptions",
+      "organizations_url": "https://api.github.com/users/rintaro/orgs",
+      "repos_url": "https://api.github.com/users/rintaro/repos",
+      "events_url": "https://api.github.com/users/rintaro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rintaro/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rintaro",
+      "id": 142081,
+      "node_id": "MDQ6VXNlcjE0MjA4MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142081?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rintaro",
+      "html_url": "https://github.com/rintaro",
+      "followers_url": "https://api.github.com/users/rintaro/followers",
+      "following_url": "https://api.github.com/users/rintaro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rintaro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rintaro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rintaro/subscriptions",
+      "organizations_url": "https://api.github.com/users/rintaro/orgs",
+      "repos_url": "https://api.github.com/users/rintaro/repos",
+      "events_url": "https://api.github.com/users/rintaro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rintaro/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7bbb63a4f6679fa57ded391b590e96a63828ebe6",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/7bbb63a4f6679fa57ded391b590e96a63828ebe6",
+        "html_url": "https://github.com/swiftlang/swift/commit/7bbb63a4f6679fa57ded391b590e96a63828ebe6"
+      }
+    ]
+  },
+  {
+    "sha": "a8a8eafc7e314d77f6cc54b312db919347d3258d",
+    "node_id": "C_kwDOAqwwJdoAKGE4YThlYWZjN2UzMTRkNzdmNmNjNTRiMzEyZGI5MTkzNDdkMzI1OGQ",
+    "commit": {
+      "author": {
+        "name": "Pavel Yaskevich",
+        "email": "xedin@apache.org",
+        "date": "2024-11-20T17:09:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-11-20T17:09:46Z"
+      },
+      "message": "Merge pull request #77706 from xedin/rdar-102564592\n\n[ClangImporter] Correctly set parent type when importing ObjC pointers",
+      "tree": {
+        "sha": "31757c9a7835c4f1009f106e0ba09730df449e10",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/31757c9a7835c4f1009f106e0ba09730df449e10"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/a8a8eafc7e314d77f6cc54b312db919347d3258d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnPhfaCRC1aQ7uu5UhlAAAAxIQAJce+lI4QU4nnpcfNGHf5UEi\nWxthu5uG7Gow9Mu2HmXOPzX6HWfyY7AQk37+FMXmcwSs/UQ8Vw8lcMcMnLbAZUEv\nf6qvPrGI6rDZU1MJTas6kMYHhV54D7HD8OcA/Wdh6n4AApc5RT8xNaz/Z/1x+m1h\nk98epe7GUDQEqH2BBNt4FW6Il3PhsXseQyY5IF7euTk/JTVbi83o6aqHG05m+Ov3\nBSqsYDBT3Z/AYnlBM5RZiooIdsyg+e1pBvuhl67/N70BKAozFuCXDqIjVIStdql+\nwpMM9Y1ejWItMe5hBfdEb02qMoAXTcomHTz32UVGXN8UqKedwUnG0foDF3r+zEco\npkesX56YUZzG0BphzrDJ7jMbK+mYQr8PaWqMGteAqZVrSi8YwpGfVq3ZeNR/CWq7\ns2WUS4MisP2Sl4C8wrX+KaVXEGe5t6tl3p/THHxPTMZkMXXf76YfSaWCdsXzQMhA\nAvnAeQPlajMvnu57XoxYKNusxFEJ1ACqoM22UakR4yWdP2UY6GDNUW+7Nt8DFwNl\nmQLmIey9RcdwfWG4D8ElzstsD5x3vI+XiIjx81CYWyVyqp4BXgLaxyGzrbK2vdug\nf974iWxzwxYLbKrNo9WH379TBP2x0npuMLnc+4NZn4khLpZR46NhzFSYQdjqxCCF\nbCTUJl7cphjsTlyxcla/\n=eLVQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 31757c9a7835c4f1009f106e0ba09730df449e10\nparent 1ab968d2b60a9328bd33850bc737fbcb8c4acdbd\nparent f4595923baa0004b710930d928a7beeae8543a60\nauthor Pavel Yaskevich <xedin@apache.org> 1732122586 -0800\ncommitter GitHub <noreply@github.com> 1732122586 -0800\n\nMerge pull request #77706 from xedin/rdar-102564592\n\n[ClangImporter] Correctly set parent type when importing ObjC pointers",
+        "verified_at": "2024-11-20T17:09:54Z"
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/a8a8eafc7e314d77f6cc54b312db919347d3258d",
+    "html_url": "https://github.com/swiftlang/swift/commit/a8a8eafc7e314d77f6cc54b312db919347d3258d",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/a8a8eafc7e314d77f6cc54b312db919347d3258d/comments",
+    "author": {
+      "login": "xedin",
+      "id": 21240,
+      "node_id": "MDQ6VXNlcjIxMjQw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21240?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xedin",
+      "html_url": "https://github.com/xedin",
+      "followers_url": "https://api.github.com/users/xedin/followers",
+      "following_url": "https://api.github.com/users/xedin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xedin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xedin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xedin/subscriptions",
+      "organizations_url": "https://api.github.com/users/xedin/orgs",
+      "repos_url": "https://api.github.com/users/xedin/repos",
+      "events_url": "https://api.github.com/users/xedin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xedin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1ab968d2b60a9328bd33850bc737fbcb8c4acdbd",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/1ab968d2b60a9328bd33850bc737fbcb8c4acdbd",
+        "html_url": "https://github.com/swiftlang/swift/commit/1ab968d2b60a9328bd33850bc737fbcb8c4acdbd"
+      },
+      {
+        "sha": "f4595923baa0004b710930d928a7beeae8543a60",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/f4595923baa0004b710930d928a7beeae8543a60",
+        "html_url": "https://github.com/swiftlang/swift/commit/f4595923baa0004b710930d928a7beeae8543a60"
+      }
+    ]
+  },
+  {
+    "sha": "1ab968d2b60a9328bd33850bc737fbcb8c4acdbd",
+    "node_id": "C_kwDOAqwwJdoAKDFhYjk2OGQyYjYwYTkzMjhiZDMzODUwYmM3MzdmYmNiOGM0YWNkYmQ",
+    "commit": {
+      "author": {
+        "name": "Cyndy Ishida",
+        "email": "cyndy_ishida@apple.com",
+        "date": "2024-11-20T16:57:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-11-20T16:57:19Z"
+      },
+      "message": "[BuildSystem] Stop building for i386-watch-simulator (#77692)\n\n* [BuildSystem] Stop building for i386-watch-simulator\r\n\r\nIn Xcode16 it is not supported.",
+      "tree": {
+        "sha": "4bd62a7b2ef9de95b507e4bfa8649ea7ba165a84",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/4bd62a7b2ef9de95b507e4bfa8649ea7ba165a84"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/1ab968d2b60a9328bd33850bc737fbcb8c4acdbd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnPhTvCRC1aQ7uu5UhlAAAbvsQABKWVQxP6VU21tuUPjul8PHl\n3hxnynioy8WwWgUobCGnFNegpiqEF5nuKBZTUfYZMKzJ0hgggSmN5PPPa1k7P5AY\n9KBxq1r6XXgeD9W0mdHFMFe0/sui/fW6WpCvSy3iQcoQZ5J67gYCeYFD8ZkLakp+\nJvyPwz8UqjhLTmRGAScvhdk8o5moK0a2S8CXxappxbZ6Ygy+mhaHCd1aDVl6xg/r\npc5MBp6fTfpqmgST9iQjBGsKYKPStZth2T842EbxBz/3rdW9TJBACzwZwBfNVoJZ\nazqYYuxN9a+Xvolcq9OKvHMoIit6roKjS6Jn/aX/WUKoAOras6hwdc3t/kEKMzq8\nAG/mxaiFj2HVQ6H48MU2nWezQx5AqxN0sz7JXW9v5sYzmsKl5oJYg4K26Jb3N21Z\njKqBJBwhbzSLSWgCc3j4Q4vKBgg/KhwRxHXg7oqbsRwGoEUVZgFX//LOTPGjy1DT\nWcaoHIpY+Hvq9CiSOmDkbavc2ts18Sos9RdFpEVWo/wex6a1eAbl8KoKJ0aAV37i\naUXUZfChZSpudWd+WySH2PNmzZyAZhREOK5dYplYkGLmjiYifM4Q7Hjt9rj6N/Zv\njatrEIiIO3I/vYarb2PoqlM2Dbx+NDTE/HfgbdyodKGBc+hm/Yi3ogxe4z3001/c\nRmx2p+pKwo4UPxLurfX3\n=WPZ5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4bd62a7b2ef9de95b507e4bfa8649ea7ba165a84\nparent 9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc\nauthor Cyndy Ishida <cyndy_ishida@apple.com> 1732121839 -0800\ncommitter GitHub <noreply@github.com> 1732121839 -0800\n\n[BuildSystem] Stop building for i386-watch-simulator (#77692)\n\n* [BuildSystem] Stop building for i386-watch-simulator\r\n\r\nIn Xcode16 it is not supported.",
+        "verified_at": "2024-11-20T16:57:26Z"
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/1ab968d2b60a9328bd33850bc737fbcb8c4acdbd",
+    "html_url": "https://github.com/swiftlang/swift/commit/1ab968d2b60a9328bd33850bc737fbcb8c4acdbd",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/1ab968d2b60a9328bd33850bc737fbcb8c4acdbd/comments",
+    "author": {
+      "login": "cyndyishida",
+      "id": 23243524,
+      "node_id": "MDQ6VXNlcjIzMjQzNTI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23243524?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cyndyishida",
+      "html_url": "https://github.com/cyndyishida",
+      "followers_url": "https://api.github.com/users/cyndyishida/followers",
+      "following_url": "https://api.github.com/users/cyndyishida/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cyndyishida/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cyndyishida/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cyndyishida/subscriptions",
+      "organizations_url": "https://api.github.com/users/cyndyishida/orgs",
+      "repos_url": "https://api.github.com/users/cyndyishida/repos",
+      "events_url": "https://api.github.com/users/cyndyishida/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cyndyishida/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc",
+        "html_url": "https://github.com/swiftlang/swift/commit/9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc"
+      }
+    ]
+  },
+  {
+    "sha": "51a68ecdd1dc66c57e51b6d9af8bc06c1fc584af",
+    "node_id": "C_kwDOAqwwJdoAKDUxYTY4ZWNkZDFkYzY2YzU3ZTUxYjZkOWFmOGJjMDZjMWZjNTg0YWY",
+    "commit": {
+      "author": {
+        "name": "Xi Ge",
+        "email": "xge@apple.com",
+        "date": "2024-11-20T16:49:04Z"
+      },
+      "committer": {
+        "name": "Xi Ge",
+        "email": "xge@apple.com",
+        "date": "2024-11-20T16:52:15Z"
+      },
+      "message": "ModuleObjCTrace/CAS: compute objc trace file paths via the canoical supplementary output paths computation\n\nCAS support in compiler relies on supplementary paths to decide the mapping between input and output files. Therefore, we\nhave to compute the paths of the module ObjC trace files in this canonical place to have CAS support for\nthis newly added ObjC message trace files.",
+      "tree": {
+        "sha": "58ac8c7118ffcf87ce0dc0fd696011a9bd093aa6",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/58ac8c7118ffcf87ce0dc0fd696011a9bd093aa6"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/51a68ecdd1dc66c57e51b6d9af8bc06c1fc584af",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/51a68ecdd1dc66c57e51b6d9af8bc06c1fc584af",
+    "html_url": "https://github.com/swiftlang/swift/commit/51a68ecdd1dc66c57e51b6d9af8bc06c1fc584af",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/51a68ecdd1dc66c57e51b6d9af8bc06c1fc584af/comments",
+    "author": {
+      "login": "nkcsgexi",
+      "id": 2191945,
+      "node_id": "MDQ6VXNlcjIxOTE5NDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2191945?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nkcsgexi",
+      "html_url": "https://github.com/nkcsgexi",
+      "followers_url": "https://api.github.com/users/nkcsgexi/followers",
+      "following_url": "https://api.github.com/users/nkcsgexi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nkcsgexi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nkcsgexi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nkcsgexi/subscriptions",
+      "organizations_url": "https://api.github.com/users/nkcsgexi/orgs",
+      "repos_url": "https://api.github.com/users/nkcsgexi/repos",
+      "events_url": "https://api.github.com/users/nkcsgexi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nkcsgexi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nkcsgexi",
+      "id": 2191945,
+      "node_id": "MDQ6VXNlcjIxOTE5NDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2191945?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nkcsgexi",
+      "html_url": "https://github.com/nkcsgexi",
+      "followers_url": "https://api.github.com/users/nkcsgexi/followers",
+      "following_url": "https://api.github.com/users/nkcsgexi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nkcsgexi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nkcsgexi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nkcsgexi/subscriptions",
+      "organizations_url": "https://api.github.com/users/nkcsgexi/orgs",
+      "repos_url": "https://api.github.com/users/nkcsgexi/repos",
+      "events_url": "https://api.github.com/users/nkcsgexi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nkcsgexi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc1dac7e77a082237600e0b99a95b098e9603307",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/fc1dac7e77a082237600e0b99a95b098e9603307",
+        "html_url": "https://github.com/swiftlang/swift/commit/fc1dac7e77a082237600e0b99a95b098e9603307"
+      }
+    ]
+  },
+  {
+    "sha": "de731b4d5d33354e2bae8e2a478ffe13b06a2623",
+    "node_id": "C_kwDOAqwwJdoAKGRlNzMxYjRkNWQzMzM1NGUyYmFlOGUyYTQ3OGZmZTEzYjA2YTI2MjM",
+    "commit": {
+      "author": {
+        "name": "Slava Pestov",
+        "email": "spestov@apple.com",
+        "date": "2024-11-20T16:25:29Z"
+      },
+      "committer": {
+        "name": "Slava Pestov",
+        "email": "spestov@apple.com",
+        "date": "2024-11-20T16:47:07Z"
+      },
+      "message": "Sema: Preserve insertion order in Solution::typeBindings",
+      "tree": {
+        "sha": "2396c7c18cfa37287c10741e8c0543b61bec99ab",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/2396c7c18cfa37287c10741e8c0543b61bec99ab"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/de731b4d5d33354e2bae8e2a478ffe13b06a2623",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/de731b4d5d33354e2bae8e2a478ffe13b06a2623",
+    "html_url": "https://github.com/swiftlang/swift/commit/de731b4d5d33354e2bae8e2a478ffe13b06a2623",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/de731b4d5d33354e2bae8e2a478ffe13b06a2623/comments",
+    "author": {
+      "login": "slavapestov",
+      "id": 66486,
+      "node_id": "MDQ6VXNlcjY2NDg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slavapestov",
+      "html_url": "https://github.com/slavapestov",
+      "followers_url": "https://api.github.com/users/slavapestov/followers",
+      "following_url": "https://api.github.com/users/slavapestov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slavapestov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slavapestov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slavapestov/subscriptions",
+      "organizations_url": "https://api.github.com/users/slavapestov/orgs",
+      "repos_url": "https://api.github.com/users/slavapestov/repos",
+      "events_url": "https://api.github.com/users/slavapestov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slavapestov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "slavapestov",
+      "id": 66486,
+      "node_id": "MDQ6VXNlcjY2NDg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slavapestov",
+      "html_url": "https://github.com/slavapestov",
+      "followers_url": "https://api.github.com/users/slavapestov/followers",
+      "following_url": "https://api.github.com/users/slavapestov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slavapestov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slavapestov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slavapestov/subscriptions",
+      "organizations_url": "https://api.github.com/users/slavapestov/orgs",
+      "repos_url": "https://api.github.com/users/slavapestov/repos",
+      "events_url": "https://api.github.com/users/slavapestov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slavapestov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b760cfd03dfe46689501c2a7b57dbb22c93989b0",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/b760cfd03dfe46689501c2a7b57dbb22c93989b0",
+        "html_url": "https://github.com/swiftlang/swift/commit/b760cfd03dfe46689501c2a7b57dbb22c93989b0"
+      }
+    ]
+  },
+  {
+    "sha": "9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc",
+    "node_id": "C_kwDOAqwwJdoAKDllYWFkNjMxNWMyMGU4M2U3MzlhNzI2NmNlOGY5ZDIxYmE2ZThkYmM",
+    "commit": {
+      "author": {
+        "name": "Pavel Yaskevich",
+        "email": "xedin@apache.org",
+        "date": "2024-11-20T16:44:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-11-20T16:44:49Z"
+      },
+      "message": "Merge pull request #77689 from JanBaig/issue-65500\n\n[CSGen] Fix compiler crash when property wrapper applied to a param lacks wrappedValue initializer",
+      "tree": {
+        "sha": "e788dae8a670a34ec78c5f256265819ecc0cf253",
+        "url": "https://api.github.com/repos/swiftlang/swift/git/trees/e788dae8a670a34ec78c5f256265819ecc0cf253"
+      },
+      "url": "https://api.github.com/repos/swiftlang/swift/git/commits/9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnPhIBCRC1aQ7uu5UhlAAAPv4QACGq2PtzPUfVqZKiPelqcR45\nTddVmmgd7tsNQ263w8TjC/1IOdMEvELMNN07lBesJOpc1qwQkAFtnsHljt7d9lzk\ni56LX/NSSy6qVIG7WaGPsKtnZ/bQQCrLfSjxiEa9t4JAZwg1OuoQx1leRwpChcml\ntBR3s7jneEgT+U11VFpEcYmBqfpCPrEjw+mmNDKAjgiAYVZ/kswuU1yIbXCoTTku\naMTw8O0RrOSQAQcWO/RBH1eQgknex9nD0y/HxrQ8Ht7StKggpUfRJoUQiaSlseHy\nSkvOO+2w+P6FOsBcJOaM+njabu7O5XX7bGdzcYhv6ttKCfuB1cOBgR2f+N3LW0Hw\n7RjbE14voIY+1P41eR5nPCmH1s+jCWPymv6APoY7SS3R1RSFpv35IBIiY2UEjFym\nqMqLKuXiLYeNYlmxK2ywFKiR2o9Y27qKJ5sZpTdt5mvRl5GO4+dfHqTtyhm/F/Ol\nQGQ7CIH/O9LbxX9R0FJ2325HY3e17NrPm9PlabA/VGyzHb67oKsuP3dnyuQ+Ljur\nmY/nvTBIc58DGf35FacQcUlzn1+9KuL7dZV0If1sLJklW6tJkt4vDJKoRnddmgQl\nisSIjaB9hOCMrQ236t9H2Pf8RSjPFrzZaAEFIBk6hw6Rb74WOODZVQY+6+0AVMbf\napAGPkPBepSfUsIh/4T2\n=71qb\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e788dae8a670a34ec78c5f256265819ecc0cf253\nparent 9665b0d4e39a1bc8efc180afc64c1d61fab54aa6\nparent 8af3aef7c4d3b44eaa04c49d478f0f4131121f21\nauthor Pavel Yaskevich <xedin@apache.org> 1732121089 -0800\ncommitter GitHub <noreply@github.com> 1732121089 -0800\n\nMerge pull request #77689 from JanBaig/issue-65500\n\n[CSGen] Fix compiler crash when property wrapper applied to a param lacks wrappedValue initializer",
+        "verified_at": "2024-11-20T16:44:56Z"
+      }
+    },
+    "url": "https://api.github.com/repos/swiftlang/swift/commits/9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc",
+    "html_url": "https://github.com/swiftlang/swift/commit/9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc",
+    "comments_url": "https://api.github.com/repos/swiftlang/swift/commits/9eaad6315c20e83e739a7266ce8f9d21ba6e8dbc/comments",
+    "author": {
+      "login": "xedin",
+      "id": 21240,
+      "node_id": "MDQ6VXNlcjIxMjQw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21240?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xedin",
+      "html_url": "https://github.com/xedin",
+      "followers_url": "https://api.github.com/users/xedin/followers",
+      "following_url": "https://api.github.com/users/xedin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xedin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xedin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xedin/subscriptions",
+      "organizations_url": "https://api.github.com/users/xedin/orgs",
+      "repos_url": "https://api.github.com/users/xedin/repos",
+      "events_url": "https://api.github.com/users/xedin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xedin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9665b0d4e39a1bc8efc180afc64c1d61fab54aa6",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/9665b0d4e39a1bc8efc180afc64c1d61fab54aa6",
+        "html_url": "https://github.com/swiftlang/swift/commit/9665b0d4e39a1bc8efc180afc64c1d61fab54aa6"
+      },
+      {
+        "sha": "8af3aef7c4d3b44eaa04c49d478f0f4131121f21",
+        "url": "https://api.github.com/repos/swiftlang/swift/commits/8af3aef7c4d3b44eaa04c49d478f0f4131121f21",
+        "html_url": "https://github.com/swiftlang/swift/commit/8af3aef7c4d3b44eaa04c49d478f0f4131121f21"
+      }
+    ]
+  }
+]
