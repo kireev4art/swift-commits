@@ -5,17 +5,29 @@ struct CommitView: View {
 
     let commit: Commit
 
+    @ViewBuilder
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                AsyncImage(url: commit.avatar) { image in
-                    image
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .clipShape(.circle)
-                } placeholder: {
-                    ProgressView()
-                        .progressViewStyle(.circular)
+                AsyncImage(url: commit.avatar) { phase in
+                    switch phase {
+                    case .empty:
+                        if commit.avatar == nil {
+                            Image(systemName: "person.crop.circle.fill")
+                        } else {
+                            Image(systemName: "progress.indicator")
+                                .symbolEffect(.variableColor.iterative.hideInactiveLayers)
+                        }
+                    case .success(let image):
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .clipShape(.circle)
+                    case .failure:
+                        Image(systemName: "exclamationmark.triangle.fill")
+                    @unknown default:
+                        Image(systemName: "questionmark.triangle.fill")
+                    }
                 }
                 .frame(width: imageScale, height: imageScale)
                 Text(commit.author)
@@ -25,7 +37,8 @@ struct CommitView: View {
         }
     }
 
-    @ScaledMetric(relativeTo: .title2) var imageScale: CGFloat = 30
+    @ScaledMetric(relativeTo: .title2)
+    private var imageScale: CGFloat = 30
 
 }
 
