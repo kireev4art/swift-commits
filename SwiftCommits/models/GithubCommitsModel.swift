@@ -4,6 +4,7 @@ import OpenAPIURLSession
 import GithubAPI
 
 
+@MainActor
 @Observable
 final class GithubCommitsModel {
 
