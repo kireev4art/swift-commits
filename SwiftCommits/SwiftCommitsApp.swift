@@ -25,7 +25,7 @@ struct SwiftCommitsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwiftCommitsView()
         }
         .modelContainer(sharedModelContainer)
     }

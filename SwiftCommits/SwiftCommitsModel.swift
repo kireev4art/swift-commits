@@ -26,7 +26,7 @@ final class SwiftCommitsModel {
         Task {
             isLoading = true
             defer { isLoading = false }
-//            await loadNextPage()
+            await loadNextPage()
         }
     }
 
