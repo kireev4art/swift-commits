@@ -8,6 +8,8 @@ import GithubAPI
 @Observable
 final class GithubCommitsModel {
 
+    let fetcher: any CommitsFetching = GithubCommitsFetcher()
+
     var commits: [Commit] = []
 
     private(set) var isLoading: Bool = false
@@ -36,22 +38,12 @@ final class GithubCommitsModel {
 
     private func loadNextPage() async {
         defer { page += 1 }
-        let client = Client(serverURL: try! Servers.Server1.url(), transport: URLSessionTransport())
-        let response = try! await client.repos_sol_list_hyphen_commits(path: .init(owner: "swiftlang", repo: "swift"), query: .init(per_page: 10, page: page))
-        let json = try! response.ok.body.json
-        commits.append(contentsOf: json.map {
-            let sha = $0.sha
-            let message = $0.commit.message
-            let author = $0.commit.author?.name ?? "Unknown author"
-            let avatar: URL?
-            switch $0.author {
-            case .simple_hyphen_user(let object):
-                avatar = URL(string: object.avatar_url)
-            default:
-                avatar = nil
-            }
-            return .init(sha: sha, message: message, author: author, avatar: avatar)
-        })
+        do {
+            let new = try await fetcher.fetchCommits(owner: "swiftlang", repo: "swift", perPage: 30, page: page)
+            commits.append(contentsOf: new)
+        } catch let error {
+            fatalError("\(error)")
+        }
     }
 
 }
