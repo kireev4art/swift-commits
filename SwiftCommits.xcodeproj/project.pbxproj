@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A99A82F2D009A4C004625F9 /* GithubAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8A99A82E2D009A4C004625F9 /* GithubAPI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8A011BB62CFDC64400D1DBCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A99A82F2D009A4C004625F9 /* GithubAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 				8A011BE32CFDC66900D1DBCB /* README.md */,
 				8A011BA52CFDC64300D1DBCB /* SwiftCommits */,
 				8A011BB82CFDC64400D1DBCB /* SwiftCommitsTests */,
+				8A99A82D2D009A4C004625F9 /* Frameworks */,
 				8A011BA42CFDC64300D1DBCB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +78,13 @@
 				8A011BB52CFDC64400D1DBCB /* SwiftCommitsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8A99A82D2D009A4C004625F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +107,7 @@
 			);
 			name = SwiftCommits;
 			packageProductDependencies = (
+				8A99A82E2D009A4C004625F9 /* GithubAPI */,
 			);
 			productName = SwiftCommits;
 			productReference = 8A011BA32CFDC64300D1DBCB /* SwiftCommits.app */;
@@ -450,6 +464,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A99A82E2D009A4C004625F9 /* GithubAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GithubAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A011B9B2CFDC64300D1DBCB /* Project object */;
 }

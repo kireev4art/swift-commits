@@ -3,42 +3,50 @@ import SwiftUI
 
 struct SwiftCommitsView: View {
 
-    @State var source: Source = .github
-
-    @State var isLoading: Bool = false
-
     var body: some View {
         NavigationStack {
-            VStack {
-                Picker("Commits source", selection: $source) {
-                    ForEach(Source.allCases) { source in
-                        Text(String(String(describing: source)))
-                    }
-                }
-                .pickerStyle(.segmented)
+            VStack(spacing: 0) {
                 List {
-                    ForEach(0..<30, id: \.self) { element in
-                        CommitView(commit: .init(sha: "SHA", message: "Message", author: "Author", avatar: nil))
-                    }
-                    HStack(alignment: .center) {
-                        loading
-                    }
-                    .onScrollVisibilityChange { isVisible in
-                        if isVisible {
-                            isLoading = true
+                    Section {
+                        ForEach(model.commits) { commit in
+                            CommitView(commit: commit)
+                        }
+                    } header: {
+                        Picker("Commits source", selection: $model.source) {
+                            ForEach(Source.allCases) { source in    // TODO: replace with model.property
+                                Text(String(describing: source))
+                                    .textCase(nil)
+                            }
+                        }
+                        .pickerStyle(.segmented)
+                    } footer: {
+                        HStack(alignment: .center) {
+                            Text(model.bottomText)
+                                .opacity(model.commits.isEmpty ? 0 : 1)
+                        }
+                        .onScrollVisibilityChange { isVisible in
+                            model.footer(isVisible: isVisible)
                         }
                     }
                 }
-                .listStyle(.inset)
+                .overlay {
+                    if model.isLoading && model.commits.isEmpty {
+                        ContentUnavailableView {
+                            Label("Loading...", systemImage: "progress.indicator")
+                                .symbolEffect(.variableColor.hideInactiveLayers.iterative)
+                        }
+                    }
+                }
             }
             .navigationTitle("Swift Commits")
         }
     }
 
-    var loading: some View {
-        let string = isLoading ? "loading..." : "the end"
-        return Text(string)
-    }
+
+    // MARK: - private
+
+    @State
+    private var model: SwiftCommitsModel = .init()
 
 }
 
