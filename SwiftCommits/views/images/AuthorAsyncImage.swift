@@ -11,29 +11,24 @@ struct AuthorAsyncImage: View {
             case .empty:
                 if url == nil {
                     Image(systemName: "person.crop.circle.fill")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .resizableAspect(to: .fit)
                         .foregroundStyle(.blue)
                 } else {
                     Image(systemName: "progress.indicator")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .resizableAspect(to: .fit)
                         .symbolEffect(.variableColor.iterative.hideInactiveLayers)
                 }
             case .success(let image):
                 image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
+                    .resizableAspect(to: .fill)     // `.fill` is not a typo
                     .clipShape(.circle)
             case .failure:
                 Image(systemName: "exclamationmark.triangle.fill")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
+                    .resizableAspect(to: .fit)
                     .foregroundStyle(.yellow)
             @unknown default:
                 Image(systemName: "questionmark.triangle.fill")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
+                    .resizableAspect(to: .fit)
                     .foregroundStyle(.purple)
             }
         }

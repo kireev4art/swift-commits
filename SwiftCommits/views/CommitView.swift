@@ -5,21 +5,12 @@ struct CommitView: View {
 
     let commit: Commit
 
-    @ViewBuilder
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                AuthorAsyncImage(url: commit.avatar)
-                    .frame(width: imageScale, height: imageScale)
-                Text(commit.author)
-                    .font(.title2)
-            }
+            AuthorLabel(name: commit.author, avatar: commit.avatar)
             Text(commit.message)
         }
     }
-
-    @ScaledMetric(relativeTo: .title2)
-    private var imageScale: CGFloat = 30
 
 }
 
