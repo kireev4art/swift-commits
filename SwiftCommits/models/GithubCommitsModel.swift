@@ -5,9 +5,7 @@ import GithubAPI
 
 
 @Observable
-final class SwiftCommitsModel {
-
-    var source: Source = .github
+final class GithubCommitsModel {
 
     var commits: [Commit] = []
 
@@ -22,7 +20,7 @@ final class SwiftCommitsModel {
     }
 
     func footer(isVisible: Bool) {
-        guard isVisible, !isLoading, source == .github else { return }
+        guard isVisible, !isLoading else { return }
         Task {
             isLoading = true
             defer { isLoading = false }
