@@ -8,6 +8,11 @@ struct SwiftDataCommitsView: View {
         NavigationStack {
             List(commits) { model in
                 CommitView(commit: .init(from: model))
+                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                        Button("Delete", role: .destructive) {
+                            modelContext.delete(model)
+                        }
+                    }
             }
             .navigationTitle("SwiftData")
         }
