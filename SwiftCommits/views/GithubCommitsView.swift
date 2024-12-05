@@ -29,6 +29,11 @@ struct GithubCommitsView: View {
                 }
             }
             .navigationTitle("Github API")
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button("Save all", action: saveAll)
+                }
+            }
         }
     }
 
@@ -38,9 +43,20 @@ struct GithubCommitsView: View {
     @State
     private var model: GithubCommitsModel = .init()
 
+    @Environment(\.modelContext)
+    private var modelContext
+
+    private func saveAll() {
+        for i in model.commits {
+            let model = CommitModel(sha: i.sha, message: i.message, author: i.author, avatar: i.avatar)
+            modelContext.insert(model)
+        }
+    }
+
 }
 
 
 #Preview {
     GithubCommitsView()
+        .modelContainer(for: CommitModel.self, inMemory: true)
 }

@@ -19,4 +19,5 @@ struct MainView: View {
 
 #Preview {
     MainView()
+        .modelContainer(for: CommitModel.self, inMemory: true)
 }
