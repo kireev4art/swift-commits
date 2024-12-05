@@ -10,19 +10,8 @@
 		8A99A82F2D009A4C004625F9 /* GithubAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8A99A82E2D009A4C004625F9 /* GithubAPI */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8A011BB62CFDC64400D1DBCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A011B9B2CFDC64300D1DBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A011BA22CFDC64300D1DBCB;
-			remoteInfo = SwiftCommits;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		8A011BA32CFDC64300D1DBCB /* SwiftCommits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCommits.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A011BB52CFDC64400D1DBCB /* SwiftCommitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A011BE32CFDC66900D1DBCB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8A011BE42CFDC6E300D1DBCB /* GithubAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = GithubAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -31,11 +20,6 @@
 		8A011BA52CFDC64300D1DBCB /* SwiftCommits */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftCommits;
-			sourceTree = "<group>";
-		};
-		8A011BB82CFDC64400D1DBCB /* SwiftCommitsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftCommitsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -49,13 +33,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A011BB22CFDC64400D1DBCB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,7 +42,6 @@
 				8A011BE32CFDC66900D1DBCB /* README.md */,
 				8A011BE42CFDC6E300D1DBCB /* GithubAPI */,
 				8A011BA52CFDC64300D1DBCB /* SwiftCommits */,
-				8A011BB82CFDC64400D1DBCB /* SwiftCommitsTests */,
 				8A99A82D2D009A4C004625F9 /* Frameworks */,
 				8A011BA42CFDC64300D1DBCB /* Products */,
 			);
@@ -75,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				8A011BA32CFDC64300D1DBCB /* SwiftCommits.app */,
-				8A011BB52CFDC64400D1DBCB /* SwiftCommitsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,29 +88,6 @@
 			productReference = 8A011BA32CFDC64300D1DBCB /* SwiftCommits.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8A011BB42CFDC64400D1DBCB /* SwiftCommitsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A011BCC2CFDC64400D1DBCB /* Build configuration list for PBXNativeTarget "SwiftCommitsTests" */;
-			buildPhases = (
-				8A011BB12CFDC64400D1DBCB /* Sources */,
-				8A011BB22CFDC64400D1DBCB /* Frameworks */,
-				8A011BB32CFDC64400D1DBCB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A011BB72CFDC64400D1DBCB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8A011BB82CFDC64400D1DBCB /* SwiftCommitsTests */,
-			);
-			name = SwiftCommitsTests;
-			packageProductDependencies = (
-			);
-			productName = SwiftCommitsTests;
-			productReference = 8A011BB52CFDC64400D1DBCB /* SwiftCommitsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,10 +100,6 @@
 				TargetAttributes = {
 					8A011BA22CFDC64300D1DBCB = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					8A011BB42CFDC64400D1DBCB = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 8A011BA22CFDC64300D1DBCB;
 					};
 				};
 			};
@@ -170,20 +118,12 @@
 			projectRoot = "";
 			targets = (
 				8A011BA22CFDC64300D1DBCB /* SwiftCommits */,
-				8A011BB42CFDC64400D1DBCB /* SwiftCommitsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8A011BA12CFDC64300D1DBCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A011BB32CFDC64400D1DBCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,22 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A011BB12CFDC64400D1DBCB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8A011BB72CFDC64400D1DBCB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A011BA22CFDC64300D1DBCB /* SwiftCommits */;
-			targetProxy = 8A011BB62CFDC64400D1DBCB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A011BC72CFDC64400D1DBCB /* Debug */ = {
@@ -421,44 +346,6 @@
 			};
 			name = Release;
 		};
-		8A011BCD2CFDC64400D1DBCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U32496Y3J3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = avk.SwiftCommitsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCommits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftCommits";
-			};
-			name = Debug;
-		};
-		8A011BCE2CFDC64400D1DBCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U32496Y3J3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = avk.SwiftCommitsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCommits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftCommits";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,15 +363,6 @@
 			buildConfigurations = (
 				8A011BCA2CFDC64400D1DBCB /* Debug */,
 				8A011BCB2CFDC64400D1DBCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A011BCC2CFDC64400D1DBCB /* Build configuration list for PBXNativeTarget "SwiftCommitsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A011BCD2CFDC64400D1DBCB /* Debug */,
-				8A011BCE2CFDC64400D1DBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
