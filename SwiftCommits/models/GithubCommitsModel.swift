@@ -10,11 +10,11 @@ final class GithubCommitsModel {
 
     let fetcher: any CommitsFetching = GithubCommitsFetcher()
 
-    var commits: [Commit] = []
+    private(set) var commits: [Commit] = []
 
     private(set) var isLoading: Bool = false
 
-    var bottomText: String {
+    var footer: String {
         if isLoading {
             "Loading..."
         } else {

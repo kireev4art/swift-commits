@@ -12,7 +12,7 @@ struct GithubCommitsView: View {
                     }
                 } footer: {
                     HStack(alignment: .center) {
-                        Text(model.bottomText)
+                        Text(model.footer)
                             .opacity(model.commits.isEmpty ? 0 : 1)
                     }
                     .onScrollVisibilityChange { isVisible in
