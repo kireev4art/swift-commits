@@ -38,5 +38,5 @@ internal extension Commit {
 
 #Preview {
     SwiftDataCommitsView()
-        .modelContainer(for: CommitModel.self, inMemory: true)
+        .modelContainer(SwiftDataStore.shared.previewContainer)
 }
